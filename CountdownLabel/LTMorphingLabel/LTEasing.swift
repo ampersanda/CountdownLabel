@@ -14,7 +14,7 @@ import Foundation
 // c = change
 // d = duration
 
-public struct LTEasing {
+public struct LTEasing: Sendable {
     
     public static func easeOutQuint(_ t: Float, _ b: Float, _ c: Float, _ d: Float = 1.0) -> Float {
         return {

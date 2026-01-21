@@ -27,7 +27,7 @@
 
 import UIKit
 
-@objc public enum LTMorphingEffect: Int, CustomStringConvertible {
+@objc public enum LTMorphingEffect: Int, CustomStringConvertible, Sendable {
 
     case scale = 0
     case evaporate
